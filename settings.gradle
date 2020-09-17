@@ -1,0 +1,3 @@
+include ':MyMathModule'
+include ':app'
+rootProject.name = "MyMath"
