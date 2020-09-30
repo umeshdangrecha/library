@@ -51,7 +51,6 @@ public class MyTextView extends androidx.appcompat.widget.AppCompatTextView {
     private void init() {
         paint = new Paint();
         paint.setStyle(Paint.Style.STROKE);
-        paint.setColor(getResources().getColor(R.color.colorPrimary));
         paint.setStrokeWidth(getLineHeight() / 10);
         paint.setStrokeCap(Paint.Cap.ROUND);
     }
